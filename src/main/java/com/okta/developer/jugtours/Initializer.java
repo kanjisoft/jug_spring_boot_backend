@@ -19,6 +19,7 @@ class Initializer implements CommandLineRunner {
         this.repository = repository;
     }
 
+    // need to fix this save
     @Override
     public void run(String... strings) {
         Stream.of("Denver JUG", "Utah JUG", "Seattle JUG",
